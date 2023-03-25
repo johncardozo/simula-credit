@@ -17,8 +17,8 @@ export const Primary: Story = {
   },
 };
 
-export const Secondary: Story = {
+export const CalcularPrestamo: Story = {
   args: {
-    label: "secondary",
+    label: "Calcular préstamo",
   },
 };
