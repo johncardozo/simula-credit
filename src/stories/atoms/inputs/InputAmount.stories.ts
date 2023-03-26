@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { InputAmount } from "./InputAmount";
+import { InputAmount } from "../inputs/InputAmount";
 
 const meta = {
-  title: "Atoms/InputAmount",
+  title: "Atoms/Inputs/InputAmount",
   component: InputAmount,
   tags: ["autodocs"],
 } satisfies Meta<typeof InputAmount>;
