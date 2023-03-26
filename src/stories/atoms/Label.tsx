@@ -1,5 +1,4 @@
 import {
-  FaDollarSign,
   FaClock,
   FaLandmark,
   FaRegCalendar,

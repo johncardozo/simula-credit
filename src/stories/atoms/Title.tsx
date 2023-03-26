@@ -1,5 +1,11 @@
 interface TitleProps {
+  /**
+   * Content of the title
+   */
   text: string;
+  /**
+   * How large the title should be?
+   */
   size?: "small" | "medium" | "large";
 }
 
