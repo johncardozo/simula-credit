@@ -16,15 +16,15 @@ export const Label = ({ text = "label", icon = "money" }: LabelProps) => {
   return (
     <div className="flex gap-3 items-center">
       {icon === "money" ? (
-        <FaMoneyBill className="text-gray-400 text-lg" />
+        <FaMoneyBill className="text-gray-300 text-lg" />
       ) : icon === "clock" ? (
-        <FaClock className="text-gray-400 text-lg" />
+        <FaClock className="text-gray-300 text-lg" />
       ) : icon === "bank" ? (
-        <FaLandmark className="text-gray-400 text-lg" />
+        <FaLandmark className="text-gray-300 text-lg" />
       ) : icon === "date" ? (
-        <FaRegCalendar className="text-gray-400 text-lg" />
+        <FaRegCalendar className="text-gray-300 text-lg" />
       ) : (
-        <FaQuestion className="text-gray-400 text-lg" />
+        <FaQuestion className="text-gray-300 text-lg" />
       )}
       <label className="text-2xl text-stone-700">{text}</label>
     </div>
