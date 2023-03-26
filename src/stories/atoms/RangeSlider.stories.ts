@@ -12,7 +12,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Amount: Story = {
   args: {
-    className: "h-8",
+    className: "h-6",
     defaultValue: 200_000_000,
     max: 1_000_000_000,
     min: 100_000_000,
@@ -22,7 +22,7 @@ export const Amount: Story = {
 
 export const Months: Story = {
   args: {
-    className: "h-8",
+    className: "h-6",
     defaultValue: 2,
     max: 300,
     min: 2,
@@ -32,7 +32,7 @@ export const Months: Story = {
 
 export const AnnualInterest: Story = {
   args: {
-    className: "h-8",
+    className: "h-6",
     defaultValue: 2,
     max: 5.0,
     min: 0.0,
@@ -42,7 +42,7 @@ export const AnnualInterest: Story = {
 
 export const Width: Story = {
   args: {
-    className: "w-80 h-8",
+    className: "w-80 h-6",
     defaultValue: 2,
     max: 5.0,
     min: 0.0,

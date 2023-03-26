@@ -17,7 +17,7 @@ export const InputAmount = ({ value = 0 }: InputAmountProps) => {
         <input
           type="text"
           value={formatNumber(value)}
-          className="form-input py-3 px-4 bg-gray-200 text-stone-700 text-3xl appearance-none w-full block pl-14 rounded-md focus:outline-none focus:border focus:border-orange-400"
+          className="form-input py-3 px-4 bg-gray-100 text-stone-700 text-3xl appearance-none w-full block pl-14 rounded-md focus:outline-none focus:border focus:border-orange-400"
         />
       </label>
     </>
